@@ -1,0 +1,22 @@
+{
+  "name": "Booking Widget Backend",
+  "description": "Backend for Squarespace booking widget using Hostaway API",
+  "repository": "https://github.com/jkimball54/thecliffs-widget",
+  "env": {
+    "HOSTAWAY_ACCOUNT_ID": {
+      "description": "Hostaway Account ID",
+      "value": "39371"
+    },
+    "HOSTAWAY_API_KEY": {
+      "description": "Hostaway API Key",
+      "required": true
+    },
+    "REDIS_URL": {
+      "description": "Redis Cloud URL with password",
+      "required": true
+    }
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
